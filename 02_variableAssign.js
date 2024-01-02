@@ -1,39 +1,37 @@
-var myFullName;
-console.log(myFullName);
+var myName;
+console.log(myName);
 
-myName = "Tanuja Raut"
-console.log("Full Name: ",myName);
+var myName;
+myName='Tanuja';
+console.log('First Name: ',myName);
 
-myName = "Tanuja Ramkrushna Raut";
-console.log("Full Name: ",myName);
+var myName;
+myName='Raut';
+console.log('Last Name: ', myName);
 
-var myLove = "I love only JS";
-console.log(myLove);
+var myName='Tanuja  Raut';
+console.log('Full Name: ', myName);
 
-myName = "Tanuja";
-console.log("First Name: ",myName);
+var mylove='I love only JS';
+console.log(mylove);
 
-myName = "Raut";
-console.log("Last Name: ",myName);
+myName ='Tanuja';
+console.log('first name: ',myName);
 
-var age = "22"; 
-console.log("Age:", age);
+myName='Raut';
+console.log('last name: ', myName);
 
-var Address;
-Address = "Pune";
-console.log("Address: ", Address)
+var Age = '22';
+console.log('Age: ',Age);
 
-var pincode;
-pincode = "411052";
-console.log("pinCode: ", pincode);
+myName = 'Pune';
+console.log('Address: ',myName);
 
-var Gender;
-Gender = "Female";
-console.log("Gender: ", Gender);
+pinCode = '411052';
+console.log('pinCode: ',pinCode);
 
-var Married; 
-Married = "No";
-console.log("is Married: ", Married);
+gender = 'Female';
+console.log('Gender: ',gender);
 
-
-
+isMarried = 'No';
+console.log('isMarried: ',isMarried);
