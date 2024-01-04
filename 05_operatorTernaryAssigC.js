@@ -14,7 +14,7 @@ console.log(result);
  var femaleMarriagrEligibility=function(gender,age,girlName){
     var result=gender=="Female"&&age>=18?
     `Hey ${girlName} you are eligible for Marriage`:
-    `Hey ${girlName} you are not eligible for Marriage`;
+    `Hey== ${girlName} you are not eligible for Marriage`;
     console.log(result);
  }
  femaleMarriagrEligibility("Female",16,"Jenifer");
