@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Local Storage</title>
+</head>
+<body>
+    <h2>Web Local Storage </h2>
+    <script>
+        console.log(window.location.href);
+        window.localStorage.setItem("Full Name", "Tanuja Ramkrushna Raut");
+        window.localStorage.setItem("District", "Amravati");
+        window.localStorage.setItem("city", "Pune");
+        window.localStorage.setItem("Pin code", "411601");
+        console.log(window.localStorage.length);
+        window.localStorage.removeItem('city');
+    </script>
+</body>
+</html>
